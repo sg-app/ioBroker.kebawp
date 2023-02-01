@@ -1,0 +1,16 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"IPAddress": {
+			"type": "text",
+			"label": "IPAddress",
+			"newLine": true
+		},
+		"Polltime": {
+			"type": "number",
+			"label": "Polltime",
+			"newLine": true
+		}
+	}
+}

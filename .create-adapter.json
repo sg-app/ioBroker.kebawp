@@ -1,0 +1,49 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "kebawp",
+	"title": "Keba Wärmepumpe",
+	"description": "",
+	"keywords": "",
+	"contributors": "",
+	"authorName": "Georg Schreiner",
+	"authorGithub": "sg-app",
+	"authorEmail": "info@sg-app.de",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "climate-control",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "IPAddress",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "Polltime",
+			"inputType": "number",
+			"defaultValue": "300"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "16",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "zip",
+	"creatorVersion": "2.3.0"
+}
