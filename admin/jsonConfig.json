@@ -4,12 +4,12 @@
 	"items": {
 		"IPAddress": {
 			"type": "text",
-			"label": "IPAddress",
+			"label": "IP Addresse der KeBa Wärmepumpe",
 			"newLine": true
 		},
 		"Polltime": {
 			"type": "number",
-			"label": "Polltime",
+			"label": "Intervall ( in Sek.) der Aktualisierung",
 			"newLine": true
 		}
 	}
