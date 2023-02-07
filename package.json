@@ -1,6 +1,6 @@
 {
   "name": "iobroker.kebawp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "kebawp",
   "author": {
     "name": "Georg Schreiner",
@@ -11,8 +11,9 @@
   "keywords": [
     "ioBroker",
     "kebawp",
-    "Smart Home",
-    "home automation"
+    "Waermepumpe",
+    "keba",
+    "M-Tec"
   ],
   "repository": {
     "type": "git",

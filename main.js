@@ -260,13 +260,27 @@ class Kebawp extends utils.Adapter {
 			for (const obj of data) {
 				var item = hp.AllParams.find(f => f.name === obj.name);
 				if (item != undefined) {
-					this.log.silly(`update state: ${item.sid}.${item.friendlyName} mit Value: ${obj.value}`);
-					await this.setStateAsync(`${item.sid}.${item.friendlyName}`, obj.value, true);
+					
+						
+					if (this.isFloat(obj.value)) {
+						this.log.silly(`update float state: ${item.sid}.${item.friendlyName} mit Value: ${obj.value} - type: ${typeof obj.value}` );
+						await this.setStateAsync(`${item.sid}.${item.friendlyName}`, Math.round(obj.value*100)/100, true);
+					}
+					else {
+						this.log.silly(`update state: ${item.sid}.${item.friendlyName} mit Value: ${obj.value} - type: ${typeof obj.value}` );
+						await this.setStateAsync(`${item.sid}.${item.friendlyName}`, obj.value, true);
+					}
 				}
 			}
 		} catch (err) {
 			this.log.error("Can't update states. " + err.message);
 		}
+	}
+	isInt(n){
+		return Number(n) === n && n % 1 === 0;
+	}
+	isFloat(n){
+		return Number(n) === n && n % 1 !== 0;
 	}
 
 }
