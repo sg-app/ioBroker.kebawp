@@ -3,6 +3,19 @@
 		"name": "kebawp",
 		"version": "0.0.3",
 		"news": {
+			"0.0.3": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Keba Wärmepumpe",
+				"zh-cn": "首次出版"
+			},
 			"0.0.1": {
 				"en": "initial release",
 				"de": "Erstveröffentlichung",
@@ -13,6 +26,7 @@
 				"it": "Versione iniziale",
 				"es": "Versión inicial",
 				"pl": "Pierwsze wydanie",
+				"uk": "Keba Wärmepumpe",
 				"zh-cn": "首次出版"
 			}
 		},
@@ -27,6 +41,7 @@
 			"it": "Keba Wärmepumpe",
 			"es": "Keba Wärmepumpe",
 			"pl": "Keba Wärmepumpe",
+			"uk": "Keba Wärmepumpe",
 			"zh-cn": "Keba Wärmepumpe"
 		},
 		"desc": {
@@ -39,6 +54,7 @@
 			"it": "kebawp",
 			"es": "kebawp",
 			"pl": "kebawp",
+			"uk": "kebawp",
 			"zh-cn": "kebawp"
 		},
 		"authors": [
